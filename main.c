@@ -46,11 +46,11 @@ const static int TMR_CNT_L = (65536 - 235) & 0xff;
 const static uint32_t STATIONAL_COUNT = 3L * 60 * 1024; // 3 min
 
 // Duty ratio is [DUTY VALUE] / 124
-const static char METER_LAMP_DUTY = 15;
-const static char HEADLIGHT_DUTY = 80;
-const static char HEADLIGHT_DAY_DUTY = 15;
-const static char TAIL_LAMP_DIM_DUTY = 10;
-const static char TAIL_LAMP_FLASH_DUTY = 40;
+const static char METER_LAMP_DUTY = 3;
+const static char HEADLIGHT_DUTY = 24;
+const static char HEADLIGHT_DAY_DUTY = 3;
+const static char TAIL_LAMP_DIM_DUTY = 4;
+const static char TAIL_LAMP_FLASH_DUTY = 15;
 const static int BRIGHT_DURATION = 60;
 
 // Brightness thresholds
