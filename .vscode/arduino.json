@@ -1,0 +1,8 @@
+{
+    "port": "/dev/tty.usbserial-DM02N6QD",
+    "board": "megaTinyCore:megaavr:atxy4",
+    "programmer": "serialupdi",
+    "sketch": "arduino/firmware/firmware.ino",
+    "configuration": "chip=404,clock=20internal,bodvoltage=1v8,bodmode=disabled,eesave=enable,millis=enabled,startuptime=8,wiremode=mors,printf=default,PWMmux=default,attach=allenabled,WDTtimeout=disabled,WDTwindow=disabled",
+    "output": "arduino/firmware/build"
+}
