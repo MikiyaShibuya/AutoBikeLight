@@ -25,15 +25,15 @@
 #define BLINK_PERIOD_3 60  // FLASH
 #define BLINK_PERIOD_4 840 // DIM
 
-// Brightness
+// Brightness (0-255)
 // Meter brightness is constant
-#define METER_BRIGHTNESS 6
+#define METER_BRIGHTNESS 15
 // Headlight brightness is different for day and night
-#define HEADLIGHT_DAY_BRIGHTNESS 6
-#define HEADLIGHT_NIGHT_BRIGHTNESS 50
+#define HEADLIGHT_DAY_BRIGHTNESS 4
+#define HEADLIGHT_NIGHT_BRIGHTNESS 30
 // Taillight brightness is not changed in day or night but it blinks
-#define TAILLIGHT_BASE_BRIGHTNESS 8
-#define TAILLIGHT_BRIGHTNESS 30
+#define TAILLIGHT_BASE_BRIGHTNESS 5
+#define TAILLIGHT_BRIGHTNESS 24
 
 bool is_dark = false;
 
